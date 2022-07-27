@@ -96,7 +96,6 @@ void PCF85063A::readTime()
  */
 uint8_t PCF85063A::getSecond()
 {
-    readTime();
     return second;
 }
 
@@ -107,7 +106,6 @@ uint8_t PCF85063A::getSecond()
  */
 uint8_t PCF85063A::getMinute()
 {
-    readTime();
     return minute;
 }
 
@@ -118,7 +116,6 @@ uint8_t PCF85063A::getMinute()
  */
 uint8_t PCF85063A::getHour()
 {
-    readTime();
     return hour;
 }
 
@@ -129,7 +126,6 @@ uint8_t PCF85063A::getHour()
  */
 uint8_t PCF85063A::getDay()
 {
-    readTime();
     return day;
 }
 
@@ -140,7 +136,6 @@ uint8_t PCF85063A::getDay()
  */
 uint8_t PCF85063A::getWeekday()
 {
-    readTime();
     return weekday;
 }
 
@@ -151,7 +146,6 @@ uint8_t PCF85063A::getWeekday()
  */
 uint8_t PCF85063A::getMonth()
 {
-    readTime();
     return month;
 }
 
@@ -162,7 +156,6 @@ uint8_t PCF85063A::getMonth()
  */
 uint16_t PCF85063A::getYear()
 {
-    readTime();
     return year;
 }
 
@@ -338,7 +331,6 @@ void PCF85063A::readAlarm()
  */
 uint8_t PCF85063A::getAlarmSecond()
 {
-    readAlarm();
     return alarm_second;
 }
 
@@ -349,7 +341,6 @@ uint8_t PCF85063A::getAlarmSecond()
  */
 uint8_t PCF85063A::getAlarmMinute()
 {
-    readAlarm();
     return alarm_minute;
 }
 
@@ -360,7 +351,6 @@ uint8_t PCF85063A::getAlarmMinute()
  */
 uint8_t PCF85063A::getAlarmHour()
 {
-    readAlarm();
     return alarm_hour;
 }
 
@@ -371,7 +361,6 @@ uint8_t PCF85063A::getAlarmHour()
  */
 uint8_t PCF85063A::getAlarmDay()
 {
-    readAlarm();
     return alarm_day;
 }
 
@@ -382,7 +371,6 @@ uint8_t PCF85063A::getAlarmDay()
  */
 uint8_t PCF85063A::getAlarmWeekday()
 {
-    readAlarm();
     return alarm_weekday;
 }
 
